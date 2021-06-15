@@ -4,17 +4,17 @@ namespace GameTOP
     {
         public string Chuta()
         {
-            return "";
+            return "Pele esta chutando \n";
         }
 
         public string Corre()
         {
-            return "";
+            return "Pele esta correndo \n";
         }
 
         public string Passe()
         {
-            return "";
+            return "Pele esta passando \n";
         }
     }
 }
