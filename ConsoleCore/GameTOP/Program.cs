@@ -23,16 +23,16 @@ namespace GameTOP
         //Chuta
         public void chuta()
         {
-            Console.Write($"{_Nome} está chutando");
+            Console.Write($"{_Nome} está chutando \n");
         }
         //Corre
         public void corre()
-        {            Console.Write($"{_Nome} está correndo");
+        {            Console.Write($"{_Nome} está correndo \n");
         }
         //Passe
         public void passe()
         {
-            Console.Write($"{_Nome} está passando");
+            Console.Write($"{_Nome} está passando \n");
         }
     }
 }
