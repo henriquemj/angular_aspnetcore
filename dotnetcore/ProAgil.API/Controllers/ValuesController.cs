@@ -3,19 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ProAgil.API.Model;
 
 namespace ProAgil.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("site/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        public ActionResult<IEnumerable<Evento>> Get() => new Evento[] {
+                 new Evento() {
+                     EventoId = 1,
+                     Tema = "Angular e .NET Core",
+                     Local = "Belo Horizonte",
+                     Lote = "1° Lote",
+                     QtdPessoas = 250,
+                     DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy")
+                 },
+                 new Evento() {
+                     EventoId = 2,
+                     Tema = "Angular e suas novidades",
+                     Local = "Gramado",
+                     Lote = "2° Lote",
+                     QtdPessoas = 350,
+                     DataEvento = DateTime.Now.AddDays(5).ToString("dd/MM/yyyy")
+                 }
+             };
 
         // GET api/values/5
         [HttpGet("{id}")]
