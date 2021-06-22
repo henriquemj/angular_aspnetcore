@@ -12489,28 +12489,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
+      "projectUniqueName": "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
       "projectName": "ProAgil.WebAPI",
-      "projectPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
+      "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
       "packagesPath": "C:\\Users\\henrique.jesus\\.nuget\\packages\\",
-      "outputPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\obj\\",
+      "outputPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\henrique.jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\henrique.jesus\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "projectReferences": {}
         }
       },
@@ -12522,6 +12521,7 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
+        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
@@ -12546,10 +12546,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

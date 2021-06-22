@@ -3,7 +3,6 @@ C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebA
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.runtimeconfig.dev.json
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.dll
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.WebAPI.pdb
-C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csprojAssemblyReference.cache
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csproj.CoreCompileInputs.cache
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorAssemblyInfo.cache
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorAssemblyInfo.cs
@@ -26,3 +25,4 @@ C:\angular.aspNet\dotnetcore\ProAgil.WebAPI1\obj\Debug\netcoreapp2.2\ProAgil.Web
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI1\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.RazorTargetAssemblyInfo.cache
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI1\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.dll
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI1\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.pdb
+C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csprojAssemblyReference.cache
