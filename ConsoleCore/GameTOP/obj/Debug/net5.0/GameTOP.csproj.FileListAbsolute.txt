@@ -14,3 +14,8 @@ C:\angular.aspNet\ConsoleCore\GameTOP\obj\Debug\net5.0\GameTOP.dll
 C:\angular.aspNet\ConsoleCore\GameTOP\obj\Debug\net5.0\ref\GameTOP.dll
 C:\angular.aspNet\ConsoleCore\GameTOP\obj\Debug\net5.0\GameTOP.pdb
 C:\angular.aspNet\ConsoleCore\GameTOP\obj\Debug\net5.0\GameTOP.genruntimeconfig.cache
+C:\angular.aspNet\ConsoleCore\GameTOP\bin\Debug\net5.0\GameTOP.Interface.dll
+C:\angular.aspNet\ConsoleCore\GameTOP\bin\Debug\net5.0\GameTOP.Lib.dll
+C:\angular.aspNet\ConsoleCore\GameTOP\bin\Debug\net5.0\GameTOP.Lib.pdb
+C:\angular.aspNet\ConsoleCore\GameTOP\bin\Debug\net5.0\GameTOP.Interface.pdb
+C:\angular.aspNet\ConsoleCore\GameTOP\obj\Debug\net5.0\GameTOP.csproj.CopyComplete

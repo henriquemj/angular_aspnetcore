@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "GameTOP.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GameTOP.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTOP.Interface.dll": {}
+        }
+      },
+      "GameTOP.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GameTOP.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameTOP.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTOP.Lib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GameTOP.Interface/1.0.0": {
+      "type": "project",
+      "path": "../GameTOP.Interface/GameTOP.Interface.csproj",
+      "msbuildProject": "../GameTOP.Interface/GameTOP.Interface.csproj"
+    },
+    "GameTOP.Lib/1.0.0": {
+      "type": "project",
+      "path": "../GameTOP.lib/GameTOP.Lib.csproj",
+      "msbuildProject": "../GameTOP.lib/GameTOP.Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "GameTOP.Interface >= 1.0.0",
+      "GameTOP.Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\henrique.jesus\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\angular.aspNet\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj": {
+              "projectPath": "C:\\angular.aspNet\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj"
+            },
+            "C:\\angular.aspNet\\ConsoleCore\\GameTOP.lib\\GameTOP.Lib.csproj": {
+              "projectPath": "C:\\angular.aspNet\\ConsoleCore\\GameTOP.lib\\GameTOP.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,6 +1,7 @@
 using System;
+using GameTOP.Interface;
 
-namespace GameTOP
+namespace GameTOP.Lib
 {
 public class Jogador1: iJogador
     {

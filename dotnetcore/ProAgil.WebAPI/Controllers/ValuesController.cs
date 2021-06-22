@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ProAgil.WebAPI.Model;
+
 namespace ProAgil.WebAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -17,7 +18,7 @@ namespace ProAgil.WebAPI.Controllers
             return new Evento[] { 
                 new Evento() {
                     EventoId = 1,
-                    Tema = "Angular e .NetCore",
+                    Tema = "Angular e .NET Core",
                     Local = "Belo Horizonte",
                     Lote = "1° Lote",
                     QtdPessoas = 250,
@@ -25,10 +26,10 @@ namespace ProAgil.WebAPI.Controllers
                 },
                 new Evento() {
                     EventoId = 2,
-                    Tema = "Angular e suas novidades",
-                    Local = "Ribeirão das Neves",
+                    Tema = "Angular 12",
+                    Local = "Porto Alegre",
                     Lote = "2° Lote",
-                    QtdPessoas = 150,
+                    QtdPessoas = 200,
                     DataEvento = DateTime.Now.AddDays(5).ToString("dd/MM/yyyy")
                 }
              };
@@ -36,12 +37,10 @@ namespace ProAgil.WebAPI.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<Evento> Get(int id)
-        {
-            return new Evento[] { 
+        public ActionResult<Evento> Get(int id) => new Evento[] {
                 new Evento() {
                     EventoId = 1,
-                    Tema = "Angular e .NetCore",
+                    Tema = "Angular e .NET Core",
                     Local = "Belo Horizonte",
                     Lote = "1° Lote",
                     QtdPessoas = 250,
@@ -49,14 +48,14 @@ namespace ProAgil.WebAPI.Controllers
                 },
                 new Evento() {
                     EventoId = 2,
-                    Tema = "Angular e suas novidades",
-                    Local = "Ribeirão das Neves",
+                    Tema = "Angular 12",
+                    Local = "Porto Alegre",
                     Lote = "2° Lote",
-                    QtdPessoas = 150,
+                    QtdPessoas = 200,
                     DataEvento = DateTime.Now.AddDays(5).ToString("dd/MM/yyyy")
                 }
-            }.FirstOrDefault(x => x.EventoId = id);
-        }
+             }.FirstOrDefault(x => x.EventoId == id);
+
 
         // POST api/values
         [HttpPost]

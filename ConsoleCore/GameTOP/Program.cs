@@ -1,4 +1,5 @@
 ﻿using System;
+using GameTOP.Lib;
 
 namespace GameTOP
 {
@@ -7,8 +8,9 @@ namespace GameTOP
         static void Main(string[] args)
         {
             var jogo = new JogoFODA(
-                new Jogador1("Ronaldo"),
-                 new Jogador2());
+                new Jogador1(),
+                 new Jogador3()
+                 );
 
             jogo.IniciarJogo();
         }

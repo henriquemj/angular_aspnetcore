@@ -1,0 +1,12 @@
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\bin\Debug\net5.0\GameTOP.Interface.deps.json
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\bin\Debug\net5.0\GameTOP.Interface.dll
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\bin\Debug\net5.0\ref\GameTOP.Interface.dll
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\bin\Debug\net5.0\GameTOP.Interface.pdb
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\GameTOP.Interface.csproj.AssemblyReference.cache
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\GameTOP.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\GameTOP.Interface.AssemblyInfoInputs.cache
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\GameTOP.Interface.AssemblyInfo.cs
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\GameTOP.Interface.csproj.CoreCompileInputs.cache
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\GameTOP.Interface.dll
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\ref\GameTOP.Interface.dll
+C:\angular.aspNet\ConsoleCore\GameTOP.Interface\obj\Debug\net5.0\GameTOP.Interface.pdb
