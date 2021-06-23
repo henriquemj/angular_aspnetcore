@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProAgil.WebAPI.Data;
 using ProAgil.WebAPI.Model;
@@ -21,9 +22,17 @@ namespace ProAgil.WebAPI.Controllers
 
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<Evento>> Get()
+        public IActionResult Get()
         {
-            return _context.Eventos.ToList();
+            try
+            {
+                var results = _context.Eventos.ToList();
+                return Ok(results);
+            }
+            catch (System.Exception)
+            {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou");
+            }
         }
 
         // GET api/values/5
