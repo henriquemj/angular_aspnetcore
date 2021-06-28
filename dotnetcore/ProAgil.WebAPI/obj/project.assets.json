@@ -4597,6 +4597,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "ProAgil.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProAgil.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProAgil.Domain.dll": {}
+        }
       }
     }
   },
@@ -12472,6 +12482,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "ProAgil.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProAgil.Domain/ProAgil.Domain.csproj",
+      "msbuildProject": "../ProAgil.Domain/ProAgil.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12479,7 +12494,8 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "ProAgil.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12509,8 +12525,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+              "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -12521,7 +12540,6 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
@@ -12546,16 +12564,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

@@ -27,7 +27,8 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "ProAgil.Domain": "1.0.0"
         },
         "runtime": {
           "ProAgil.WebAPI.dll": {}
@@ -189,6 +190,14 @@
         },
         "compile": {
           "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "ProAgil.Domain/1.0.0": {
+        "runtime": {
+          "ProAgil.Domain.dll": {}
+        },
+        "compile": {
+          "ProAgil.Domain.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3455,6 +3464,11 @@
       "sha512": "sha512-6q2qXc7GA11ZFh3ATFj9LjzF0HfMtlN1hDi8QATSoML4sR+inquXdionvyX8nUegutOAGXjKDp+8MziaUV5Pkg==",
       "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.11",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.11.nupkg.sha512"
+    },
+    "ProAgil.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
