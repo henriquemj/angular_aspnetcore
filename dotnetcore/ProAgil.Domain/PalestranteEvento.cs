@@ -6,5 +6,5 @@ namespace ProAgil.Domain
         public Palestrante Palestrante { get; set; }
         public int EventoId { get; set; }
         public Evento Evento { get; set; }
-    }
+    }    
 }

@@ -4607,6 +4607,21 @@
         "runtime": {
           "bin/placeholder/ProAgil.Domain.dll": {}
         }
+      },
+      "ProAgil.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.0",
+          "ProAgil.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProAgil.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProAgil.Repository.dll": {}
+        }
       }
     }
   },
@@ -12487,6 +12502,11 @@
       "type": "project",
       "path": "../ProAgil.Domain/ProAgil.Domain.csproj",
       "msbuildProject": "../ProAgil.Domain/ProAgil.Domain.csproj"
+    },
+    "ProAgil.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ProAgil.Repository/ProAgil.Repository.csproj",
+      "msbuildProject": "../ProAgil.Repository/ProAgil.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12495,7 +12515,8 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "ProAgil.Domain >= 1.0.0"
+      "ProAgil.Domain >= 1.0.0",
+      "ProAgil.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12528,6 +12549,9 @@
           "projectReferences": {
             "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
               "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+            },
+            "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+              "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj"
             }
           }
         }

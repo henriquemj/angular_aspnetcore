@@ -15,3 +15,5 @@ C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebA
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csproj.CopyComplete
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.dll
 C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.pdb
+C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
+C:\angular.aspNet\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
