@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {}
+    "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+    "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectUniqueName": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "projectName": "ProAgil.Domain",
-        "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "packagesPath": "C:\\Users\\henrique.jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\obj\\",
+        "outputPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+    "c:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectUniqueName": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "projectName": "ProAgil.Repository",
-        "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "packagesPath": "C:\\Users\\henrique.jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\obj\\",
+        "outputPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {
+    "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
+        "projectUniqueName": "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
         "projectName": "ProAgil.WebAPI",
-        "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
+        "projectPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
         "packagesPath": "C:\\Users\\henrique.jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\obj\\",
+        "outputPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -140,11 +140,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj"
               },
-              "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
-                "projectPath": "C:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj"
+              "c:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+                "projectPath": "c:\\angular.aspNet\\dotnetcore\\ProAgil.Repository\\ProAgil.Repository.csproj"
               }
             }
           }
